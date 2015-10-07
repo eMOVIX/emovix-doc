@@ -1,0 +1,70 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title{\#eMOVIX Data Science Report}
+
+\author{Jordi Vilaplana}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document explains the different tasks to be achieved regarding the Twitter social network analysis part of the \#eMOVIX project.
+\end{abstract}
+
+\section{Define the questions}
+\label{sec:questions_definition}
+
+
+
+\section{Define the ideal data set}
+
+The ideal data set would consist of the total amount of Catalan tweets produced in the world plus those tweets produced by the Twitter user accounts of interest.
+
+\section{Determine what data you can access}
+
+By using the Twitter Streaming API, up to 10\% of the total amount of tweets can be gathered.
+
+Using the Twitter Search API, up to X tweets per day can be gathered.
+
+\section{Obtain the data}
+
+The data is obtained using the following applications:
+
+emovix-twitter-streaming: https://github.com/eMOVIX/emovix-twitter-streaming
+
+emovix-twitter-sarch: https://github.com/eMOVIX/emovix-twitter-search
+
+\section{Clean the data}
+
+An average tweet takes 4.26 KB of disk space when stored into the MongoDB database.
+
+\section{Exploratory data analysis}
+
+\section{Statistical prediction / modeling}
+
+\section{Interpret results}
+
+\section{Challenge results}
+
+\section{Synthesize / write up results}
+
+\section{Create reproducible code}
+
+\section{Distribute results to other people}
+
+
+\subsection{How to Leave Comments}
+
+Comments can be added to the margins of the document using the \todo{Here's a comment in the margin!} todo command, as shown in the example on the right. You can also add inline comments:
+
+\todo[inline, color=green!40]{This is an inline comment.}
+
+\end{document}
