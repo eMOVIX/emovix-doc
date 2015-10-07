@@ -1,2 +1,6 @@
 # emovix-doc
-Documentation for the #eMOVIX project
+Documentation for the #eMOVIX project.
+
+## Current status
+
+**Data Science Report** [![PDF Status](https://www.sharelatex.com/github/repos/eMOVIX/emovix-doc/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/eMOVIX/emovix-doc/builds/latest/output.pdf)
